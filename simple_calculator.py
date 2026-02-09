@@ -8,6 +8,10 @@ class Calculator:
         return a * b
     def modulo(self, a, b):
         return a % b
+    def add(self, a, b):
+        return a + b
+    def power(self, a, b):
+        return a ** b
 
 
 if __name__ == "__main__":
@@ -16,3 +20,5 @@ if __name__ == "__main__":
     
     print("Subtraction: ", calc.subtract(10, 5))
     print("Multiplication: ", calc.multiply(10, 5))
+    print("Addition: ", calc.add(10, 5))
+    print("Power: ", calc.power(10, 5))
